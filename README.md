@@ -1,15 +1,37 @@
-week02 practice feature importances:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/neychev/fall19_madmo_adv/blob/master/week02_Boosting_and_importances/week02_feature_importance_exercises.ipynb)
+# Machine Learning at MIPT
 
+Main repository for machine learning course at MIPT.
+All the learning materials are available here.
 
-__Further readings__:
-* [en] Bias-variance tradeoff in more general case: A Unified Bias-Variance Decomposition and its Applications https://homes.cs.washington.edu/~pedrod/papers/mlc00a.pdf
-* [ru] Evgeny Sokolov notes about bias-variance decomposition and Random Forest: https://github.com/esokolov/ml-course-hse/blob/master/2018-fall/lecture-notes/lecture08-ensembles.pdf
-* [ru] Great blog post about stacking, blending and their modifications: https://dyakonov.org/2017/03/10/cтекинг-stacking-и-блендинг-blending/
-* [ru] Alexander Guschin Bachelor's thesis about stacking: http://www.machinelearning.ru/wiki/images/5/56/Guschin2015Stacking.pdf
-* [ru] Great ODS blogpost about gradient boosting: https://habr.com/ru/company/ods/blog/327250/
-* [en] Same post as 3 but in English: https://nbviewer.jupyter.org/github/Yorko/mlcourse_open/blob/master/jupyter_english/topic10_boosting/topic10_gradient_boosting.ipynb
-* [en] Great interactive blogpost by Alex Rogozhnikov: http://arogozhnikov.github.io/2016/06/24/gradient_boosting_explained.html
-* [en] And great gradient boosted trees playground by Alex Rogozhnikov: http://arogozhnikov.github.io/2016/07/05/gradient_boosting_playground.html
-* [en] Shap values repo and explanation: https://github.com/slundberg/shap
-* [en] Kaggle tutorial on feature importances: https://www.kaggle.com/learn/machine-learning-explainability
+## Video lectures
+
+* Previous term (__basic track__) lectures are available on [youtube playlist](https://www.youtube.com/playlist?list=PL4_hYwCyhAvasRqzz4w562ce0esEwS0Mt)
+
+* Current launch (__advanced track__) lectures (WIP): [youtube playlist](https://www.youtube.com/playlist?list=PL4_hYwCyhAvZeq93ssEUaR47xhvs7IhJM)
+
+* Current launch (__advanced track__) seminars (WIP): [youtube playlist](https://www.youtube.com/playlist?list=PL4_hYwCyhAvYvuHz_PKlEV-kOsK2bwUBg)
+
+## Prerequisites
+
+We are expecting our students to have a basic knowlege of:
+* calculus, especially matrix calculus
+* probability theory and statistics
+* programming, especially on Python
+
+Although if you don't have any of this, you could substitude it with your diligence because the course provides additional materials to study requirements yourself.
+
+## Theoretical materials
+
+Informal "aggregation" of all topics by previous years students: [file](https://github.com/ml-mipt/ml-mipt/blob/master/ML_informal_notes.pdf) (in Russian).
+
+## Docker image
+
+If conda/pip doesn't work, consider using Docker.
+Due to the root privileges in the docker contaner we do not recommend to use it in open networks, it may make your systerm vulnerable. The instructions will be updated in future.
+
+1. Install Docker CE from the [official site](https://www.docker.com/products/docker-desktop)
+2. In your command line run: 
+```bash
+sudo docker run -d -p 4545:4545 -v <your_local_path>:/home/user vlasoff/ds jupyter notebook
+```
+3. Open your browser on `localhost:4545`
