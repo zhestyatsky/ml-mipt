@@ -12,7 +12,7 @@ __Some useful links__:
 * [albumentations](https://github.com/albumentations-team/albumentations) - great open source library for image augmentations
 * [pretrainedmodels](https://github.com/Cadene/pretrained-models.pytorch/tree/master/pretrainedmodels/models) - lots of pretrained models. Superset of torchvision.models
 * [lightning](https://github.com/PyTorchLightning/pytorch-lightning) - open source pytorch wrapper for ml researchers
-* [catalyst](https://github.com/catalyst-team/catalyst) - open source library for research & development with pythorch
+* [catalyst](https://github.com/catalyst-team/catalyst) - open source library for research & development with PyTorch
 
 __Catalyst tutorials__:
 * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/catalyst-team/catalyst/blob/master/examples/notebooks/classification-tutorial.ipynb) - classification tutorial (notebook API)
