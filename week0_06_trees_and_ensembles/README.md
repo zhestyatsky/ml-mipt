@@ -1,8 +1,8 @@
 Decision trees notebook
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ml-mipt/ml-mipt/blob/basic_s20/week0_06_trees_and_ensembles/week0_06_decision_trees.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/girafe-ai/ml-mipt/blob/basic_s20/week0_06_trees_and_ensembles/week0_06_decision_trees.ipynb)
 
 Ensembles:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ml-mipt/ml-mipt/blob/basic_s20/week0_06_trees_and_ensembles/week0_06_ensembles.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/girafe-ai/ml-mipt/blob/basic_s20/week0_06_trees_and_ensembles/week0_06_ensembles.ipynb)
 
 
 Further readings:

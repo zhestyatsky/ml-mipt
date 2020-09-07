@@ -1,5 +1,5 @@
 Names generation from scratch
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ml-mipt/ml-mipt/blob/basic_s20/week0_10_RNN_and_Language_models/week0_10_Names_generation_from_scratch.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/girafe-ai/ml-mipt/blob/basic_s20/week0_10_RNN_and_Language_models/week0_10_Names_generation_from_scratch.ipynb)
 
 
 Further readings:
