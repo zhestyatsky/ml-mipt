@@ -1,8 +1,8 @@
 Attacking MNIST classifier:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ml-mipt/ml-mipt/blob/advanced/yet_another_week/adversarial_attacks/adversarial_example.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/girafe-ai/ml-mipt/blob/advanced/yet_another_week/adversarial_attacks/adversarial_example.ipynb)
 
 Attacking Random Forest via mimic model:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ml-mipt/ml-mipt/blob/advanced/yet_another_week/adversarial_attacks/RandomForest_adversarial_attack.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/girafe-ai/ml-mipt/blob/advanced/yet_another_week/adversarial_attacks/RandomForest_adversarial_attack.ipynb)
 
 
 Further readings:

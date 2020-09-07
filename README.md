@@ -22,7 +22,7 @@ Although if you don't have any of this, you could substitude it with your dilige
 
 ## Theoretical materials
 
-Informal "aggregation" of all topics by previous years students: [file](https://github.com/ml-mipt/ml-mipt/blob/master/ML_informal_notes.pdf) (in Russian).
+Informal "aggregation" of all topics by previous years students: [file](https://github.com/girafe-ai/ml-mipt/blob/master/ML_informal_notes.pdf) (in Russian).
 
 ## Docker image
 
