@@ -76,7 +76,7 @@ class KNearestNeighbor:
                 # not use a loop over dimension, nor use np.linalg.norm().          #
                 #####################################################################
                 # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
-                dists[i][j] = np.sum((X[i] - self.X_train[j])**2)
+                dists[i][j] = np.sqrt(np.sum((X[i] - self.X_train[j])**2))
                 # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
         return dists
 
@@ -98,7 +98,7 @@ class KNearestNeighbor:
             # Do not use np.linalg.norm().                                        #
             #######################################################################
             # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
-            dists[i, :] = np.sum((self.X_train - X[i])**2, axis=1)
+            dists[i, :] = np.sqrt(np.sum((self.X_train - X[i])**2, axis=1))
             # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
         return dists
 
@@ -128,7 +128,7 @@ class KNearestNeighbor:
         # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
         test_broadcast = np.tile(np.sum(X**2, axis=1), (num_train, 1)).T
         train_broadcast = np.tile(np.sum(self.X_train**2, axis=1), (num_test, 1))
-        dists = test_broadcast + train_broadcast - 2 * np.dot(X, self.X_train.T)
+        dists = np.sqrt(test_broadcast + train_broadcast - 2 * np.dot(X, self.X_train.T))
         return dists
 
     def predict_labels(self, dists, k=1):
