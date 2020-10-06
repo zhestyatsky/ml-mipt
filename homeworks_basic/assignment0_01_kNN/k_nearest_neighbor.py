@@ -126,9 +126,9 @@ class KNearestNeighbor:
         #       and two broadcast sums.                                         #
         #########################################################################
         # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
-        test_broadcast = np.tile(np.sum(X**2, axis=1), (num_test, 1))
-        train_broadcast = np.tile(np.sum(self.X_train**2, axis=1), (num_train, 1)).T
-        dists = test_broadcast + train_broadcast - 2 * self.X_train * X.T
+        test_broadcast = np.tile(np.sum(X**2, axis=1), (num_train, 1)).T
+        train_broadcast = np.tile(np.sum(self.X_train**2, axis=1), (num_test, 1))
+        dists = test_broadcast + train_broadcast - 2 * np.dot(X, self.X_train.T)
         return dists
 
     def predict_labels(self, dists, k=1):
